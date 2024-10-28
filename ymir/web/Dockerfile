@@ -1,7 +1,7 @@
 FROM node:18-alpine as builder
 WORKDIR /app
 
-ARG NPM_REGISTRY=https://registry.npmjs.org
+ARG NPM_REGISTRY=https://registry.npm.taobao.org
 ARG ENV=prod
 
 COPY package.json .
