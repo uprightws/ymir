@@ -55,8 +55,6 @@ def _append_binds(cmd: List, bind_path: str) -> None:
 
 
 def _get_docker_executable(runtime: str) -> str:
-    if runtime == 'nvidia':
-        return 'nvidia-docker'
     return 'docker'
 
 
